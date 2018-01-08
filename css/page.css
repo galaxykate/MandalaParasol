@@ -1,0 +1,94 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    background-color: black;
+     height: 100%;
+   	font-family: lato;
+ 	
+	
+
+}
+
+.titleBig {
+      font-size: 400%;
+font-family: fancy;
+}
+
+
+
+@font-face {
+    font-family: fancy;
+    src: url(fonts/Alissya.ttf);
+}
+
+
+
+@font-face {
+
+    font-family: lato;
+    src: url(fonts/Lato-Light.ttf);
+}
+
+#view {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	height: 700px;
+}
+
+.mandala {
+  margin: 0px auto;
+  box-shadow: 0px 0px 20px hsl(1, 100%, 100%);
+  border-radius: 300px;
+ 
+  width: 400px;
+  height: 400px;
+
+perspective: 4;
+  overflow: hidden;
+
+}
+
+.clone {
+  transform: perspective(30);
+}
+
+
+.title {
+  font-family: fancy;
+  font-size: 40px;
+}
+
+.mini {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.instruction {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#text {
+  background-color: rgba(0, 0, 0, .4);
+  padding: 10px;
+z-index: 100;
+position: absolute;
+border-radius: 10px;
+opacity: .8;
+left: 20px;   
+
+top: 20px;   
+color: white;
+
+}
+#three {
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+}
